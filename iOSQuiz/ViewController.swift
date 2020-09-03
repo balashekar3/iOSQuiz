@@ -11,10 +11,10 @@ import UIKit
 class ViewController: UIViewController {
 
     //Constants
-    let questions=[Question(question: "How many windows are there for an iOS app?", image:#imageLiteral(resourceName: "images-content-how-to-new-How+to+clear+Xcode+cache+and+stop+crashes+G+1200x670"), answer1: "1", answer2: "2", answer3: "3", answer4: "4", correctAnswer: 1),
-                   Question(question: "Core Data is a?", image: #imageLiteral(resourceName: "images-content-how-to-new-How+to+clear+Xcode+cache+and+stop+crashes+G+1200x670"), answer1: "Database", answer2: "Dispatch Groups", answer3: "Librarie", answer4: "Framework", correctAnswer: 4),
-    Question(question: "SuperClass of UIViewController", image:#imageLiteral(resourceName: "images-content-how-to-new-How+to+clear+Xcode+cache+and+stop+crashes+G+1200x670"), answer1: "UIResponder", answer2: "UIView", answer3: "UIControl", answer4: "UIWindow", correctAnswer: 1),
-    Question(question: "SuperClass of UIWindow?", image: #imageLiteral(resourceName: "images-content-how-to-new-How+to+clear+Xcode+cache+and+stop+crashes+G+1200x670"), answer1: "UIResponder", answer2: "UIWindow", answer3: "UIControl", answer4: "UIView", correctAnswer: 4)]
+    let questions=[Question(question: "How many windows are there for an iOS app?", image:#imageLiteral(resourceName: "Xcode-Icon.jpg"), answer1: "1", answer2: "2", answer3: "3", answer4: "4", correctAnswer: 1),
+                   Question(question: "Core Data is a?", image: #imageLiteral(resourceName: "Xcode-Icon"), answer1: "Database", answer2: "Dispatch Groups", answer3: "Librarie", answer4: "Framework", correctAnswer: 4),
+    Question(question: "SuperClass of UIViewController", image:#imageLiteral(resourceName: "Xcode-Icon"), answer1: "UIResponder", answer2: "UIView", answer3: "UIControl", answer4: "UIWindow", correctAnswer: 1),
+    Question(question: "SuperClass of UIWindow?", image: #imageLiteral(resourceName: "Xcode-Icon"), answer1: "UIResponder", answer2: "UIWindow", answer3: "UIControl", answer4: "UIView", correctAnswer: 4)]
     //Variables
     var buttonsArray=[UIButton]()
     var index=0
